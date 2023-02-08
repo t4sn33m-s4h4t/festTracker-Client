@@ -1,0 +1,28 @@
+.hamburger{
+    display: none;
+  }
+  @media only screen and (max-width: 1000px) {
+    .sidebar{
+        display: none;
+        
+    }
+    .topCenter, .topRight, .topRight{
+        display: none;
+    }
+    .top{
+        height: auto;
+        text-align: center;
+    }
+    .topLeft img{
+        width: 40%;
+    }
+    .hamburger{
+        
+        display: block;
+        transform: translateX(50%);
+    }
+    .post{
+        width: 84vw;
+    }
+}  
+

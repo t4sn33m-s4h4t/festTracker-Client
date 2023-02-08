@@ -1,0 +1,31 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.linkButton{
+    
+    text-decoration: none;
+    color: white!important;
+}
+.postBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .postBtn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .postBtn:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  }
+  
